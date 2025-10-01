@@ -148,6 +148,16 @@ body{
     }  
 
 
-/*.footer{
-    
-}*/
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: $p-color;
+
+    small{
+        width: 80%;
+        text-align: center;
+        color:$white;
+        margin: 0 auto;
+    }
+}

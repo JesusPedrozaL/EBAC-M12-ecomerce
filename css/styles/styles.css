@@ -127,6 +127,15 @@ body {
   width: 20px;
 }
 
-/*.footer{
-
-}*//*# sourceMappingURL=styles.css.map */
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #999;
+}
+footer small {
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}/*# sourceMappingURL=styles.css.map */
