@@ -5,7 +5,7 @@
   box-sizing: border-box;
   height: 100%;
   position: fixed;
-  /*right: -100%; se usa para ocultar*/
+  right: -100%; /* Se oculta el carrito*/
   top: 100px;
   box-shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.4);
 }
@@ -43,7 +43,7 @@ body {
   width: 100%;
   padding: 40px 0;
   text-align: center;
-  background-image: url("./img/banner-abstract-white.jpg");
+  background-image: url("./img-extras/banner-abstract-white.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -94,6 +94,20 @@ body {
   opacity: 0.5;
 }
 
+footer {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  background-color: #999;
+}
+footer small {
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
 .cart__subtitle {
   width: 100%;
   text-align: center;
@@ -125,8 +139,4 @@ body {
 }
 .cart__icon .delete-Icon {
   width: 20px;
-}
-
-/*.footer{
-
-}*//*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

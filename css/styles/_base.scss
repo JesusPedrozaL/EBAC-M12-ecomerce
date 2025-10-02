@@ -1,0 +1,25 @@
+$p-color: #999;
+$white: #fff;
+@mixin flexbox{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@mixin icono-conf{
+     width: 40px;
+     cursor: pointer;
+}
+
+%cart-flex{
+        width: 400px;
+        background-color: $white;
+        padding: 25px;
+        box-sizing: border-box;
+        height: 100%;
+        position: fixed;
+        right: -100%; /* Se oculta el carrito*/
+        top: 100px;
+        box-shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.4);
+}

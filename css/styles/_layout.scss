@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+    color:$p-color;
+    font-family: "Lexend", Arial, Helvetica, sans-serif;
+}
+
+.header{
+    width:100%;
+    padding: 20px 50px;
+    background-color: #a8a8a8;
+    @include flexbox;
+    
+
+    .header__logo{
+        width: 100px;
+    }
+
+    .header__icon{
+        @include icono-conf;
+        display:inline-block;
+        img{
+            width:100%
+        }
+    }
+}
+
+
+.banner{
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    background-image: url("./img-extras/banner-abstract-white.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__subtitle{
+    width: 100%;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px;
+    color:$p-color;
+}
+
+.banner__p{
+    width: 350px;
+    margin: 0 auto;
+    font-size: 25px;
+    opacity:0.7;
+}
+
+.products{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+}
+
+.products__item{
+    cursor: pointer;
+    text-align: center;
+    img{
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+    h3{
+        font-weight: 500;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 15px;
+    }
+}
+
+.products__item--disable{
+    opacity: 0.5;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    background-color: $p-color;
+
+    small{
+        width: 80%;
+        text-align: center;
+        color:$white;
+        margin: 0 auto;
+    }
+}
